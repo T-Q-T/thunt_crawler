@@ -1,0 +1,19 @@
+{
+  "name": "thunt_crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "build":"node xlsx_build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx-js-style": "^1.2.0"
+  },
+  "devDependencies": {
+    "axios": "^1.7.9"
+  }
+}
